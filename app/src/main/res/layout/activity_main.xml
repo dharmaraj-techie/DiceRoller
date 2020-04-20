@@ -8,13 +8,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/result_tv"
+    <ImageView
+        android:id="@+id/dice_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="click the btn to roll the dice"
-        android:textSize="24sp" />
+        android:src="@drawable/empty_dice" />
 
     <Button
         android:layout_width="wrap_content"
